@@ -1,0 +1,36 @@
+.hero-image
+	width: 100%
+	height: 845px
+	background: url('https://d3p0bla3numw14.cloudfront.net/projects/agent-award-my%20/aaa-hero-img-sfw.jpg') no-repeat center center
+	background-size: contain
+	background-color: #24150e
+	#btn-down
+		height: 50px
+		
+		img
+			position: relative
+			top: 790px
+		&:before, &:after
+
+			box-sizing: border-box
+			content: " "
+			position: absolute
+			top: 0
+			display: block
+			width: 50%
+			height: 990px
+			border: 50px solid
+			border-top: none
+			border-bottom-color: #f4f3ef
+		&:before
+			left: 0
+			border-right: 50px solid transparent
+			border-left: 0
+		&:after
+			right: 0
+			border-left: 50px solid transparent
+			border-right: 0
+
+button
+	&:focus
+		outline: none !important
