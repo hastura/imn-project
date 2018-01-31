@@ -1,18 +1,22 @@
 footer
 	width: 100%
-	height: 30px
-	background-color: #333333
+	height: 50px
+	background-color: #282828
 	color: #fff
-	display: flex
-	flex: row nowrap
-	justify-content: space-between
-	.lft-ftr,
-	.rght-ftr
-		font-size: 14px
-		display: inline-flex
-		flex: row wrap
-		list-style-type: none
-		li
-			margin-left: 10px
-			&>a
-				color: #fff
+	.ftr-cntn
+		.lft-ftr,
+		.rght-ftr
+			font-size: 14px
+			display: inline-flex
+			flex: row wrap
+			list-style-type: none
+			padding: 0
+			li
+				margin: 5px 10px
+				&>a
+					color: #fff
+		.lft-ftr
+			float: left
+		.rght-ftr
+			float: right
+			// margin-right: 30px
