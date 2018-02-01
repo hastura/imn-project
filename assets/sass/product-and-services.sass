@@ -1,9 +1,21 @@
 .prd-srvs
 	width: 100%
 	height: auto
+	padding: 0 0 50px  0
 	.prdsrvs-cntn
-		&>.btn-prd
-			background-color: #0C68F1 
-		&>card
-			background-color: #f2f2f2	
-			height: 500px
+		.prdsrvs-title
+			margin: 30px auto
+		.card
+			width: $width
+			.card-img-top
+				height: $height
+				width: $width
+				display: block
+			.card-body
+				.card-text
+					overflow: hidden
+					text-overflow: clip
+					height: 170px
+			&>.btn-prd
+				background-color: #0C68F1 
+		
