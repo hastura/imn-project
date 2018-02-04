@@ -1,7 +1,7 @@
 .prd-srvs
 	width: 100%
 	height: auto
-	padding: 0 0 50px  0
+	padding: 0 0 10px  0
 	.prdsrvs-cntn
 		.prdsrvs-title
 			margin: 30px auto
@@ -12,10 +12,14 @@
 				width: $width
 				display: block
 			.card-body
+				background-color: $grey
 				.card-text
 					overflow: hidden
 					text-overflow: clip
 					height: 170px
-			&>.btn-prd
-				background-color: #0C68F1 
-		
+				.d-flex
+					.btn-group
+						.btn-prd
+							color: $white
+							background-color: $blue
+			
