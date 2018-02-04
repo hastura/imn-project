@@ -27,7 +27,7 @@ Use the `.alert-link` utility class to quickly provide matching colored links wi
 {% example html %}
 {% for color in site.data.theme-colors %}
 <div class="alert alert-{{ color.name }}" role="alert">
-  This is a {{ color.name }} alert with . Give it a click if you like.
+  This is a {{ color.name }} alert with <a href="#" class="alert-link">an example link</a>. Give it a click if you like.
 </div>{% endfor %}
 {% endexample %}
 
